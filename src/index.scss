@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+$size: 1.1em; 
+$color-light: rgba(255,255,255);
+$color-dark: rgba(0,0,35);
+$color-primary: #412494;
+
+body {
+  font-family: arial,'sans-serif';
+  font-size: $size;
+}
+
+@import "./App.scss";
